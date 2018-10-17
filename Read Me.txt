@@ -1,0 +1,23 @@
+***************************************************************************
+Copyright (C) 2016, Antony Lam, all rights reserved.
+* Do not redistribute without permission.
+* Strictly for academic and non-commerial purpose only.
+* Use at your own risk.
+
+Please cite the following paper if you use this code:
+* Robust Heart Rate Measurement from Video Using Select Random Patches. 
+Antony Lam and Yoshinori Kuno, In ICCV 2015.
+Contact
+antonylam@cv.ics.saitama-u.ac.jp
+***************************************************************************
+
+This software relies on the Chehra_v0.1_MatlabFit tracker, available at: https://sites.google.com/site/chehrahome/
+Please download it and extract the zip file into the directory of this demo.
+The tracker should be in its own subdirectory called, "Chehra_v0.1_MatlabFit". 
+Unfortunately, this code only seems to work on Windows 64-bit.
+
+In addition, the built-in Matlab function, VideoReader is needed to load the videos.
+
+Please run the setup.m file to include the appropriate paths.
+
+Then run demoHR to test the code.
